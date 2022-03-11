@@ -110,7 +110,7 @@ func deletePerson(c *fiber.Ctx) {
 	}
 
 	jsonResponse, _ := json.Marshal(res)
-	c.Send(jsonResponse)
+	c.Send(jsonResponse)	
 }
 
 func main() {
